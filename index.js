@@ -6,7 +6,7 @@ const options = {
   cert: fs.readFileSync('cert.pem') // Path to your certificate
 };
 
-const port = 8000;
+const port = 3000;
 
 const server = https.createServer(options, (req, res) => {
   console.log(`Received request: ${req.method} ${req.url}`);
