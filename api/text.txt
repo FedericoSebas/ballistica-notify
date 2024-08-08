@@ -1,0 +1,45 @@
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/src/routes/index.js' imported from /var/task/api/index.js
+    at finalizeResolution (node:internal/modules/esm/resolve:269:11)
+    at moduleResolve (node:internal/modules/esm/resolve:937:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:1173:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1216:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:383:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:352:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:227:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///var/task/src/routes/index.js'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+INIT_REPORT Init Duration: 180.68 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/src/routes/index.js' imported from /var/task/api/index.js
+    at finalizeResolution (node:internal/modules/esm/resolve:269:11)
+    at moduleResolve (node:internal/modules/esm/resolve:937:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:1173:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1216:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:383:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:352:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:227:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///var/task/src/routes/index.js'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+INIT_REPORT Init Duration: 220.87 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/src/routes/index.js' imported from /var/task/api/index.js
+    at finalizeResolution (node:internal/modules/esm/resolve:269:11)
+    at moduleResolve (node:internal/modules/esm/resolve:937:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:1173:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1216:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:383:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:352:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:227:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///var/task/src/routes/index.js'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+INIT_REPORT Init Duration: 210.35 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
